@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700&display=swap");
+
+body,
+html {
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.height-navbar {
+  height: 100px;
+}
+
+.row {
+  height: 80%;
+  align-items: center;
+}
+.tape {
+  color: white;
+  margin-top: 96px;
+  margin-left: 43px;
+  position: absolute;
+  z-index: 3;
+  transform: rotate;
+  transform: rotate(44deg);
+  font-size: 14px;
+}
+
+.row-description-product {
+  background-color: #e0dfdf;
+  padding-bottom: 2%;
+  margin-top: 10%;
+}
+
+.row--maskImg-white {
+  width: 65%;
+  top: -9%;
+  left: -1%;
+  position: absolute;
+  opacity: 0;
+}
+
+.row--maskImg-black {
+  width: 61%;
+  left: 2%;
+  position: absolute;
+}
+
+.row--title {
+  color: #6e6d6d;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+.row-description-text {
+  color: #7a7a7a;
+  font-size: 15px;
+  padding-right: 20%;
+  font-family: "Open Sans", sans-serif;
+}
+
+hr {
+  display: block;
+  overflow: hidden;
+  border-width: 1px;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.row-colorMask {
+  font-family: serif;
+  color: gray;
+  font-weight: 400;
+}
+
+.flex-colorMask {
+  display: flex;
+  width: 30%;
+  justify-content: start;
+}
+
+.colorMask--variant-black {
+  height: 27px;
+  width: 29px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 10px;
+  box-shadow: 0px 2px 5px gray;
+  cursor: pointer;
+}
+
+.colorMask--variant-white {
+  height: 27px;
+  width: 29px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-left: 15px;
+  box-shadow: 0px 2px 5px gray;
+  cursor: pointer;
+}
+
+.row-personnalisation {
+  font-family: serif;
+  color: gray;
+  font-weight: 400;
+  margin-top: 4%;
+}
+
+.flex-colorLogo {
+  display: flex;
+  width: 70%;
+  justify-content: start;
+}
+
+.color-1 {
+  height: 27px;
+  width: 29px;
+  background-color: rgb(36, 193, 233);
+  border-radius: 50%;
+  margin-left: 11px;
+  box-shadow: 0px 2px 5px gray;
+  cursor: pointer;
+}
+
+.color-2 {
+  height: 27px;
+  width: 29px;
+  background-color: rgb(226, 44, 44);
+  border-radius: 50%;
+  margin-left: 15px;
+  box-shadow: 0px 2px 5px gray;
+  cursor: pointer;
+}
+
+.color-3 {
+  height: 27px;
+  width: 29px;
+  background-color: rgb(231, 221, 83);
+  border-radius: 50%;
+  margin-left: 15px;
+  box-shadow: 0px 2px 5px gray;
+  cursor: pointer;
+}
+
+.color-4 {
+  height: 27px;
+  width: 29px;
+  background-color: rgb(68, 231, 68);
+  border-radius: 50%;
+  margin-left: 15px;
+  box-shadow: 0px 2px 5px gray;
+  cursor: pointer;
+}
+
+.color-5 {
+  height: 27px;
+  width: 29px;
+  background-color: rgb(241, 110, 127);
+  border-radius: 50%;
+  margin-left: 15px;
+  box-shadow: 0px 2px 5px gray;
+  cursor: pointer;
+}
+
+.enter-a-word-class {
+  border-style: none;
+}
+
+.row-more-details {
+  font-size: 13px;
+  color: rgb(16, 57, 194);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.flex-price {
+  width: 70%;
+  display: flex;
+  justify-content: start;
+  height: 10%;
+  align-items: center;
+}
+
+.row--price {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  letter-spacing: 1px;
+}
+
+.myButton {
+  background-color: #40e5eb;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 4px 18px;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.myButton:hover {
+  background-color: #82e4f5;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.flex-icon-truck {
+  display: flex;
+  width: 50%;
+  justify-content: start;
+}
+
+.truck-description {
+  margin-left: 2%;
+  color: #979797;
+}
+
+.svg-inline--fa {
+  color: #80cde9;
+  margin-top: 5px;
+}
+
+.product-img-white-black {
+  position: relative;
+  height: 83%;
+}
+
+@media (max-width: 786px) {
+  .product-img-white-black {
+    height: 43%;
+  }
+}

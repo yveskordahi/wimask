@@ -1,0 +1,103 @@
+body{
+ font-family: 'Montserrat', arial;
+ background-color: #EDEDED;
+ margin-left: 35px;
+}
+h1{
+ text-transform : uppercase;
+ font-size: 32px;
+ display: flex;
+ justify-content: center;
+}
+
+h2{
+ text-transform : uppercase;
+ font-size: 24px;
+ display: flex;
+ justify-content: center;
+}
+
+div{
+ margin-top: 50px;
+ width: 150px;
+ height: 200px;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+p{
+ font-size: 16px;
+}
+
+.bouton a{
+ height: 20px;
+ width: 450px;
+ display: flex;
+ justify-content: center;
+ background-color: black;
+ color: white;
+ border: 20px solid black;
+ border-radius: 25px 25px 25px 25px;
+ text-decoration: none;
+ text-transform : uppercase;
+ font-size: 20px;
+ margin-top: 500px;
+}
+
+.bouton{
+ display: flex;
+ justify-content: center;
+}
+@media (min-width : 360px){
+ body{
+  font-family: 'Montserrat', arial;
+  background-color: #EDEDED;
+  margin-left: 200px;
+ }
+
+h1{
+ text-transform : uppercase;
+ font-size: 72px;
+ display: flex;
+ justify-content: center;
+}
+
+h2{
+ text-transform : uppercase;
+ font-size: 32px;
+ display: flex;
+ justify-content: center;
+}
+
+div{
+ margin-top: 50px;
+ width: 1200px;
+ height: 450px;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+p{
+ font-size: 32px;
+}
+
+.bouton a{
+ height: 50px;
+ width: 350px;
+ display: flex;
+ justify-content: center;
+ background-color: black;
+ color: white;
+ border: 20px solid black;
+ border-radius: 25px 25px 25px 25px;
+ text-decoration: none;
+ text-transform : uppercase;
+ font-size: 50px;
+ margin-top: 10px;
+}
+
+.bouton{
+ display: flex;
+ justify-content: center;
+}
+}
